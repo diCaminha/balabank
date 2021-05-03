@@ -19,6 +19,13 @@ fun main() {
         senha = 1234
     )
 
+    val joaozin = Diretor(
+        nome = "Joao",
+        cpf = "222.333.222-11",
+        salario = 5000.0,
+        senha = 4444
+    )
+
     println("nome ${fran.nome}")
     println("cpf ${fran.cpf}")
     println("salario ${fran.salario}")
